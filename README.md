@@ -5,11 +5,12 @@
 ## 2. Prerequisites
 - python 3.9.13
 - pytorch 1.11.0
-- pandas 1.4.3
 - numpy 1.22.3
+- pandas 1.4.3
 - mordred 1.2.0
 - rdkit 2022.03.3
 - scikit-learn 1.0.2
 - scipy 1.9.0
 - tqdm 4.64.0
 - prettytable 3.3.0
+## 3. Datasets
