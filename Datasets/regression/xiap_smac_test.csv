@@ -1,0 +1,12 @@
+SMILES,Actual
+CC[C@H](N(C)C)C(=O)N[C@H]1CCC[C@H]2CC[C@H](N2C1=O)C(=O)NC(c1ccccc1)c1ccccc1,5.52
+CC[C@H](NC(=O)[C@H](C)N)C(=O)N1C[C@H](C[C@H]1C(=O)N1C[C@H](C[C@H]1C(=O)NC)c1ccccc1)c1ccccc1,8
+CN[C@@H](C)C(=O)N[C@H]1C\C=C/C[C@H]2[C@H](C[C@@H](C(=O)N[C@@H]3CCCc4ccccc34)N2C1=O)Cc1ccccc1,7.59
+C[C@@H](N)c1ccc(o1)C(=O)N1C[C@H](C[C@H]1C(=O)N1CC[C@@H](C1)c1ccccc1)c1ccccc1,8
+CN[C@@H](C)C(=O)Nc1cnc(-c2ccccc2)n(CC(=O)N[C@@H]2CCCc3ccccc23)c1=O,6
+CN[C@@H](C)C(=O)Nc1ncc(-c2ccccc2)n(CC(=O)N[C@@H]2CCCc3ccccc23)c1=O,6
+CNC(=O)[C@@H]1C[C@@H](CN1C(=O)[C@@H]1C[C@@H](CN1C(=O)[C@H](Cn1cncn1)NC(=O)[C@H](C)N)c1ccccc1)c1ccccc1,8
+CN[C@@H](C)C(=O)N[C@@H](C1CCCCC1)C(=O)N1CCC[C@H]1c1cncc(Oc2ccc(F)cc2)c1,6
+CN[C@@H](C)C(=O)N[C@@H](C1CCCCC1)C(=O)N1CCC[C@H]1c1nc(cs1)C(=O)c1ccc(F)cc1,6
+CC[C@H](N)C(=O)N[C@H]1[C@@H](CN=[N+]=[N-])CC[C@H]2CC[C@H](N2C1=O)C(=O)NC(c1ccccc1)c1ccccc1,6.39
+C[C@H](N)C(=O)N[C@@H](Cc1cccc(c1)C(N)=O)C(=O)N1C[C@H]([C@@H]1C(=O)N[C@@H]1CCc2ccccc12)c1ccccc1,8
