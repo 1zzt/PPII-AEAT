@@ -18,7 +18,7 @@ We collected inhibitor and non-inhibitor data for nine different PPI families fr
 
 We put the data for identification of PPI-specific small molecule inhibitors (classification task) on the `Datasets/classification` folder and put the data for quantitative prediction of inhibitory potency (regression task) on the `Datasets/regression` folder.
 
-# Usage
+## 4. Usage
 ```
 python main.py --dataset bcl2_bak --task regression --num_epochs 100 --batch_size 32 --lr 0.001 --gpu 0
 ```
