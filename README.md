@@ -14,3 +14,11 @@
 - tqdm 4.64.0
 - prettytable 3.3.0
 ## 3. Datasets
+We collected inhibitor and non-inhibitor data for nine different PPI families from Rodrigues’s work[1]. These PPI families are **Bcl2-Like/Bak-Bax**, **Bromodomain/Histone**, **Cyclophilins**, **HIF-1a/p300**, **Integrins**, **LEDGF/IN**, **LFA/ICAM**, **Mdm2-Like/P53**, and **XIAP/Smac**.
+
+We put the data for identification of PPI-specific small molecule inhibitors (classification task) on the `Datasets/classification` folder and put the data for quantitative prediction of inhibitory potency (regression task) on the `Datasets/regression` folder.
+
+# Usage
+```
+python main.py --dataset bcl2_bak --task regression --num_epochs 100 --batch_size 32 --lr 0.001 --gpu 0
+```
