@@ -242,10 +242,16 @@ def main():
     else:
         loss_criterion = nn.MSELoss()
     
-    print('**********Training**********')
+    print('**********Training**********') 
     print('\n')
+    
+    # trained with all training set
+    # 10-fold cross-validation code is omitted (parameter optimization)
+    # kf = KFold(n_splits=10, shuffle=True) 
+    # for split, (train_index, valid_index) in enumerate(kf.split(train_labels)): 
+    
     for epoch in tqdm(list(range(1, num_epochs+1))):
-        # with all training set
+      
         run_a_train_epoch(epoch, model, train_loader, optimizer, None, loss_criterion, device)
     print('**********Test**********')
     test_pred, test_y, test_loss = run_an_eval_epoch(model, test_loader,task_name, loss_criterion, device)
