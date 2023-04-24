@@ -48,26 +48,8 @@ def set_seed(seed):
     torch.manual_seed(seed)
     torch.cuda.manual_seed(seed)
     torch.backends.cudnn.deterministic =True
-
-if dataset_name == 'bcl2_bak':
-    set_seed(24)
-elif dataset_name == 'bromodomain_histone':
-    set_seed(20)
-elif dataset_name == 'cyclophilins':
-    set_seed(31)
-elif dataset_name == 'hif1a_p300':
-    set_seed(5)
-elif dataset_name == 'integrins':
-    set_seed(36)
-elif dataset_name == 'ledgf_in':
-    set_seed(24)
-elif dataset_name == 'lfa_icam':
-    set_seed(39)
-elif dataset_name == 'mdm2_p53':
-    set_seed(24)
-elif dataset_name == 'xiap_smac':
-    set_seed(31)
-
+    
+set_seed(24)
 
 def run_an_eval_epoch(model, data_loader, task_name, criterion, device):
     model.eval()
@@ -246,7 +228,7 @@ def main():
     print('\n')
     
     # trained with all training set
-    # 10-fold cross-validation code is omitted (parameter optimization)
+    # 10-fold cross-validation code is omitted (used for parameter optimization)
     # kf = KFold(n_splits=10, shuffle=True) 
     # for split, (train_index, valid_index) in enumerate(kf.split(train_labels)): 
     
