@@ -18,5 +18,5 @@ We evaluate the performance of PPII-AEAT on different tasks and PPI families. PP
 
 ## 4. Usage
 ```
-python main.py --dataset bcl2_bak --task classification --batch_size 32 --lr 0.0001 --gpu 0
+python main.py --dataset bcl2_bak --task regression --batch_size 32 --num_epochs 100 --lr 0.001 --gpu 0
 ```
