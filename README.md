@@ -14,9 +14,7 @@
 - tqdm 4.64.0
 - prettytable 3.3.0
 ## 3. Datasets
-We evaluate the performance of the HiGPPIM model on different tasks and PPI families. 
-For the PPIM identification task, PPI families include **Bcl2-Like/Bak-Bax**, **Bromodomain/Histone**, **CD4/gp120**, **LEDGF/IN**, **LFA/ICAM**, **Mdm2-Like/P53**, **Ras/SOS1**, and **XIAP/Smac**.
-For the PPIM potency prediction task, PPI families include **Bcl2-Like/Bak-Bax**, **Bromodomain/Histone**, **CD4/gp120**, **LEDGF/IN**, **LFA/ICAM**, **Mdm2-Like/P53**, and **XIAP/Smac**.
+We evaluate the performance of PPII-AEAT on different tasks and PPI families. PPI families include **Bcl2-Like/Bak-Bax**, **Bromodomain/Histone**, **Cyclophilins**, **HIF-1a/p300**, **Integrins**, **LEDGF/IN**, **LFA/ICAM**, **Mdm2-Like/P53**, **Ras/SOS1**, and **XIAP/Smac**.
 
 ## 4. Usage
 ```
