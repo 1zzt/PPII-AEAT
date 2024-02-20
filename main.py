@@ -28,7 +28,8 @@ parser.add_argument('--lr', type=int, default=1e-3,
                     help="learning rate")
 parser.add_argument('--gpu', type=int, default=0,
                     help="train on which cuda device")
-
+parser.add_argument('--seed', type=int, default=24,
+                    help="random seed")
 
 args = parser.parse_args()
 dataset_name = args.dataset
@@ -36,6 +37,7 @@ task_name = args.task_name
 num_epochs = args.num_epochs
 batch_size = args.batch_size
 lr = args.lr
+seed = args.seed
 
 data_path = './Datasets/'
 
@@ -49,7 +51,7 @@ def set_seed(seed):
     torch.cuda.manual_seed(seed)
     torch.backends.cudnn.deterministic =True
     
-set_seed(24)
+set_seed(seed)
 
 def run_an_eval_epoch(model, data_loader, task_name, criterion, device):
     model.eval()
