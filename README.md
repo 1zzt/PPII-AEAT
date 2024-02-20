@@ -31,6 +31,5 @@ Parameters:
 --num_epochs <Training epochs>   default=100.
 --gpu <Number of gpu>            default=0.
 --seed <Random seed>             default=24.
-
 ```
 The results are presented in the Prettytable.
